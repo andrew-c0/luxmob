@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.12.1">
     <businessObjects>
+<<<<<<< HEAD
         <businessObject qualifiedName="com.luxmob.model.DMAnuntAgent">
             <fields>
                 <field type="STRING" length="255" name="descriereAnunt" nullable="true" collection="false"/>
@@ -15,6 +16,18 @@
                 <field type="STRING" length="255" name="etaj" nullable="false" collection="false"/>
                 <field type="INTEGER" length="255" name="nrCamere" nullable="false" collection="false"/>
                 <field type="DOUBLE" length="255" name="metriPatrati" nullable="false" collection="false"/>
+=======
+        <businessObject qualifiedName="com.luxmob.model.DMAgent">
+            <fields>
+                <field type="STRING" length="255" name="nume" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prenume" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="telefon" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="agentie" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="mail" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="parola" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="motiv_stergere" nullable="true" collection="false"/>
+>>>>>>> 28b544080a52f3dea6125747c446948f0438863c
             </fields>
             <uniqueConstraints/>
             <queries/>
