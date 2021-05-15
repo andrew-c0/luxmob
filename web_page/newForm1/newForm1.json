@@ -1,0 +1,172 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "newForm1",
+  "name" : "newForm1",
+  "lastUpdate" : 1621083777633,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "b700e749-a02d-4944-a88e-5d2a3cbd8b27",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Id_agent Selectat"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "number"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.id_agentSelectat"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "1ce943aa-3d0d-493c-974f-89826187b672",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Id_cumparator Selectat"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "number"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.id_cumparatorSelectat"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "53b9be70-2c9d-4d2c-8de2-821f3b8ee20f",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e56d904d-1fdb-4960-ae77-1bb647221502",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "f004702e-bd8d-4cce-97d5-9d5aaea20da9",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "6ae90233-1480-49a2-a201-d4196d5d7bf8",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
