@@ -1,0 +1,2143 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "stergereAnunt",
+  "name" : "stergereAnunt",
+  "lastUpdate" : 1621095573237,
+  "rows" : [
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "5ab4e58c-7850-499d-82cb-ead8e491f1d3",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "bee7965a-41dc-4d23-be0e-b1f48af2ea24",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Lista anunturi"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "9a57a7ae-5ede-4dc6-9a19-5ce4572b0fe2",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "fb17e37c-8626-4b40-90e3-abf4857aba17",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "repeatedCollection" : {
+                          "type" : "variable",
+                          "value" : ""
+                        }
+                      },
+                      "reference" : "54198e8c-c87d-4a0f-9435-d36ec571d2c7",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "repeatedCollection" : {
+                                "type" : "variable",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "b209b378-cfe8-49bd-81e7-8d0ec2e2804a",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "Auto generate ui for business object \"com.luxmob.model.DMAnuntAgent\"",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12
+                                  },
+                                  "propertyValues" : { },
+                                  "reference" : "71d2f93b-b3a0-4515-98a5-5620df456eed",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "\"com.luxmob.model.DMAnuntAgent\" object from \"dMAnuntAgent\" variable",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "level" : {
+                                            "type" : "constant",
+                                            "value" : "Level 4"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "text" : {
+                                            "type" : "interpolation",
+                                            "value" : "DMAnuntAgent"
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          }
+                                        },
+                                        "reference" : "a8e9bf50-c827-4e1a-8dc3-d716c424c15d",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTitle",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "headers" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "Descriere Anunt",
+                                              "Titlu Anunt",
+                                              "Agent",
+                                              "Data Anunt",
+                                              "Oras",
+                                              "Adresa",
+                                              "Zona",
+                                              "Pret",
+                                              "Compartimentare",
+                                              "Etaj",
+                                              "Nr Camere",
+                                              "Metri Patrati",
+                                              "Motiv_stergere"
+                                            ]
+                                          },
+                                          "allowHtml" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "condensed" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "bordered" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "selectedRow" : {
+                                            "type" : "variable",
+                                            "value" : "dMAnuntAgent_selected"
+                                          },
+                                          "columnsKey" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "descriereAnunt",
+                                              "titluAnunt",
+                                              "agent",
+                                              "dataAnunt",
+                                              "oras",
+                                              "adresa",
+                                              "zona",
+                                              "pret",
+                                              "compartimentare",
+                                              "etaj",
+                                              "nrCamere",
+                                              "metriPatrati",
+                                              "motiv_stergere"
+                                            ]
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "content" : {
+                                            "type" : "expression",
+                                            "value" : "dMAnuntAgent"
+                                          },
+                                          "zebraStriping" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          }
+                                        },
+                                        "reference" : "979e61a5-30c3-468f-a1a4-70a570bdab63",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTable",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 1,
+                                          "sm" : 1,
+                                          "xs" : 1,
+                                          "lg" : 1
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!dMAnuntAgent_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "c6d2db0b-4377-4cf4-9d2d-970cc9d6fa12",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "rows" : [
+                                          [ ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 11,
+                                          "sm" : 11,
+                                          "xs" : 11,
+                                          "lg" : 11
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!dMAnuntAgent_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 11
+                                          }
+                                        },
+                                        "reference" : "8799f568-e715-432e-984c-ff3786da594a",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "Display \"DMAnuntAgent\" details when a line is selected in the table above",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.descriereAnunt"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Descriere Anunt"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.descriereAnunt"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "128572a4-fc5f-46f7-ac0e-587ab25935d8",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.titluAnunt"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Titlu Anunt"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.titluAnunt"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "0a833ba6-cb30-4009-b6c5-00a62fd89859",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.agent"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Agent"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.agent"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "cec5cb13-5233-4744-9d85-963395a14426",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "showNow" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.dataAnunt"
+                                                },
+                                                "inlineInput" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "dateFormat" : {
+                                                  "type" : "constant",
+                                                  "value" : "MM/dd/yyyy"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Data Anunt"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "todayLabel" : {
+                                                  "type" : "constant",
+                                                  "value" : "Today"
+                                                },
+                                                "timePlaceholder" : {
+                                                  "type" : "constant",
+                                                  "value" : "Enter a time (h:mm:ss a)"
+                                                },
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "showToday" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "timeFormat" : {
+                                                  "type" : "constant",
+                                                  "value" : "h:mm:ss a"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant",
+                                                  "value" : "Enter a date (mm/dd/yyyy)"
+                                                },
+                                                "nowLabel" : {
+                                                  "type" : "constant",
+                                                  "value" : "Now"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.dataAnunt"
+                                                },
+                                                "withTimeZone" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "c5d8c8e8-c07b-4c8b-8f3c-580e38570084",
+                                              "hasValidationError" : false,
+                                              "id" : "pbDateTimePicker",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.oras"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Oras"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.oras"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "88501d2c-9982-44ad-9cb2-e9d67352c7a7",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.adresa"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Adresa"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.adresa"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "24d7908f-f831-443f-9e68-430134385c31",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.zona"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Zona"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.zona"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "390a1e36-c5bf-4c72-b64b-dc8967e6867a",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.pret"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Pret"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.pret"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "be82c3c1-7499-4d26-bbe7-9269334553c2",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.compartimentare"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Compartimentare"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.compartimentare"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "fe52f63f-79c0-4acb-85c4-7c1f320ac19f",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.etaj"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Etaj"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.etaj"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "50006e86-4da8-47d8-9012-765dbab96413",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.nrCamere"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Nr Camere"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "number"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.nrCamere"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "d2900904-d4d2-455d-98b1-7ebc42af233d",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.metriPatrati"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Metri Patrati"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "number"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.metriPatrati"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "cdce5f8c-600a-4e77-8499-23d0bf8de13e",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!dMAnuntAgent_selected.motiv_stergere"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Motiv_stergere"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "dMAnuntAgent_selected.motiv_stergere"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "48dad779-af3d-471a-a3a1-ae1bfbfa5584",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.descriereAnunt"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Descriere Anunt"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.descriereAnunt}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "b0e3bc6a-f12e-4b14-8d70-65b8125ed7b0",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.titluAnunt"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Titlu Anunt"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.titluAnunt}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "1f5cf308-be73-447d-abb4-5bfc7ef847d7",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.agent"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Agent"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.agent}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "0c36760d-9cf3-4a8c-ac1d-fe2bc1c245e3",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.dataAnunt"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Data Anunt"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.dataAnunt|uiDate}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "656054ac-070f-4779-b3e0-de19f4a76922",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.oras"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Oras"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.oras}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "0b68325f-274a-4406-93c9-0d8c922fa5c9",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.adresa"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Adresa"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.adresa}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "0f59a595-df20-4288-82bb-459836679e9c",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.zona"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Zona"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.zona}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "1a568a2c-c299-4893-8ab1-184b62e5b2f9",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.pret"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Pret"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.pret}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "2f7e51c1-5245-4e8c-9bc1-fdb412c7b7eb",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.compartimentare"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Compartimentare"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.compartimentare}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "fb2c2d67-6281-4235-9343-e3c6240a1767",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.etaj"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Etaj"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.etaj}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "0c59d3c6-0ab3-4229-be01-484b1a22e0e2",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.nrCamere"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nr Camere"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.nrCamere}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "2f8b428d-fa70-4fdd-a084-0c5f222a2916",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!anuntSelectat.metriPatrati"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Metri Patrati"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{anuntSelectat.metriPatrati}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "3cac1f1f-479e-498b-a144-447d02c969b9",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Motiv_stergere"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "anuntSelectat.motiv_stergere"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "a9311991-54ab-4367-b8d0-ccaadf7be413",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "7244622b-156f-4376-921c-755b8503b5f8",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "6a64cd92-67d4-445a-85a8-297b28790ab3",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "61b4b97d-19b6-4590-8084-340c56602e93",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "6a3a70ed-ee35-425b-9581-8ab64a26b5fa",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.anuntSelectat ){",
+        "\treturn {",
+        "\t\t//map anuntSelectat variable to expected task contract input",
+        "\t\tanuntSelectatInput: {",
+        "\t\t\tmotiv_stergere: $data.anuntSelectat.motiv_stergere !== undefined ? $data.anuntSelectat.motiv_stergere : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "anuntSelectat" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.anuntSelectat_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    },
+    "dMAnuntAgent" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.luxmob.model.DMAnuntAgent]\",\"businessObjectName\":\"DMAnuntAgent\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.luxmob.model.DMAnuntAgent\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "dMAnuntAgent_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "8607f622-4e36-4fcb-bc09-98c487e18499",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
