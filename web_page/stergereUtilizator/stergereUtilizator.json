@@ -1,0 +1,1884 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "stergereUtilizator",
+  "name" : "stergereUtilizator",
+  "lastUpdate" : 1621018626779,
+  "rows" : [
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "98c6fff0-65b2-41c3-b5f4-c7ac72fe7e47",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "e8b0c35a-f5b6-4097-8b50-3700c91c50a8",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "tabsContainer",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "vertical" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "tabs"
+                  }
+                },
+                "reference" : "2b85f86c-92b7-4475-9ced-b79351a31674",
+                "hasValidationError" : false,
+                "id" : "pbTabsContainer",
+                "tabList" : [
+                  {
+                    "type" : "tabContainer",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "disabled" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "title" : {
+                        "type" : "interpolation",
+                        "value" : "Cumpărători"
+                      }
+                    },
+                    "reference" : "0762a3c0-e152-4c8a-a081-3d1d513186af",
+                    "hasValidationError" : false,
+                    "id" : "pbTabContainer",
+                    "container" : {
+                      "type" : "container",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : { },
+                      "reference" : "28614540-2c9b-41ab-81ec-ae5022ea037f",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "repeatedCollection" : {
+                                "type" : "variable",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "43867cf0-b172-4407-ab4d-1597b06fbe6a",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "Auto generate ui for business object \"com.luxmob.model.DMCumparator\"",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "repeatedCollection" : {
+                                      "type" : "variable",
+                                      "value" : ""
+                                    }
+                                  },
+                                  "reference" : "f040402f-f2dc-40c1-aca8-342c4faa9388",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "\"com.luxmob.model.DMCumparator\" object from \"listaCumparatori\" variable",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "level" : {
+                                            "type" : "constant",
+                                            "value" : "Level 4"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "text" : {
+                                            "type" : "interpolation",
+                                            "value" : "DMCumparator"
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          }
+                                        },
+                                        "reference" : "d6e06f6b-1f05-48e1-9bad-f1d461ab23a4",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTitle",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "headers" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "Nume",
+                                              "Prenume",
+                                              "Adresa",
+                                              "Telefon",
+                                              "Mail",
+                                              "Parola",
+                                              "Motiv_stergere"
+                                            ]
+                                          },
+                                          "allowHtml" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "condensed" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "bordered" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "selectedRow" : {
+                                            "type" : "variable",
+                                            "value" : "listaCumparatori_selected"
+                                          },
+                                          "columnsKey" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "nume",
+                                              "prenume",
+                                              "adresa",
+                                              "telefon",
+                                              "mail",
+                                              "parola",
+                                              "motiv_stergere"
+                                            ]
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "content" : {
+                                            "type" : "expression",
+                                            "value" : "listaCumparatori"
+                                          },
+                                          "zebraStriping" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "striped" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          }
+                                        },
+                                        "reference" : "e1c790a4-f1ad-47e7-9e16-f6dea2051fae",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTable",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 1,
+                                          "sm" : 1,
+                                          "xs" : 1,
+                                          "lg" : 1
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!listaCumparatori_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "c23db661-289c-4e8d-9caf-44b4cb1d8bca",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "rows" : [
+                                          [ ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 11,
+                                          "sm" : 11,
+                                          "xs" : 11,
+                                          "lg" : 11
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!listaCumparatori_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 11
+                                          }
+                                        },
+                                        "reference" : "bc9a6cb3-fa05-4771-b92d-de9b0dd3edb9",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "Display \"DMCumparator\" details when a line is selected in the table above",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.nume"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Nume"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.nume"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "minLength" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "maxLength" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "min" : {
+                                                  "type" : "constant"
+                                                },
+                                                "max" : {
+                                                  "type" : "constant"
+                                                },
+                                                "step" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                }
+                                              },
+                                              "reference" : "d6a03e45-ddac-40fb-b691-c0c298db4193",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.prenume"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Prenume"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.prenume"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "67ce2c5f-9496-4f70-8df6-7072f6987f86",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.adresa"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Adresa"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.adresa"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "5e0b694f-13d3-49ce-9671-17d35c535192",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.telefon"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Telefon"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.telefon"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "a962d759-6dec-455c-9685-431340508c2f",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.mail"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Mail"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.mail"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "a055ca53-be91-461e-9640-883a7f320c6c",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.parola"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Parola"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.parola"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "555af00a-fd63-4dbb-be82-e2295ccdd300",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaCumparatori_selected.motiv_stergere"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Motiv_stergere"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaCumparatori_selected.motiv_stergere"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "96579a58-6ec2-405e-85cd-3991c56c2610",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type" : "tabContainer",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "disabled" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "title" : {
+                        "type" : "interpolation",
+                        "value" : "Agenți imobiliari"
+                      }
+                    },
+                    "reference" : "6db1589b-fe79-4452-b530-c055da688ad0",
+                    "hasValidationError" : false,
+                    "id" : "pbTabContainer",
+                    "container" : {
+                      "type" : "container",
+                      "dimension" : {
+                        "xs" : 12
+                      },
+                      "propertyValues" : { },
+                      "reference" : "ee21ac6d-37b7-4c7e-a6fa-72651987c314",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "md" : 12,
+                              "sm" : 12,
+                              "xs" : 12,
+                              "lg" : 12
+                            },
+                            "propertyValues" : {
+                              "repeatedCollection" : {
+                                "type" : "variable",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "dimension" : {
+                                "type" : "constant",
+                                "value" : 12
+                              }
+                            },
+                            "reference" : "aedff2da-5940-4b8a-857f-76156b38e8de",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "Auto generate ui for business object \"com.luxmob.model.DMAgent\"",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "xs" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "repeatedCollection" : {
+                                      "type" : "variable",
+                                      "value" : ""
+                                    }
+                                  },
+                                  "reference" : "b9fd65f5-12e6-4791-b0af-7d1480e857b9",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "\"com.luxmob.model.DMAgent\" object from \"listaAgenti\" variable",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "level" : {
+                                            "type" : "constant",
+                                            "value" : "Level 4"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "text" : {
+                                            "type" : "interpolation",
+                                            "value" : "DMAgent"
+                                          },
+                                          "alignment" : {
+                                            "type" : "constant",
+                                            "value" : "left"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          }
+                                        },
+                                        "reference" : "8ddcbc59-3c46-4858-9620-c8d2cf17b287",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTitle",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "headers" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "Nume",
+                                              "Prenume",
+                                              "Adresa",
+                                              "Telefon",
+                                              "Agentie",
+                                              "Mail",
+                                              "Parola",
+                                              "Motiv_stergere"
+                                            ]
+                                          },
+                                          "allowHtml" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "condensed" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "bordered" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "selectedRow" : {
+                                            "type" : "variable",
+                                            "value" : "listaAgenti_selected"
+                                          },
+                                          "columnsKey" : {
+                                            "type" : "constant",
+                                            "value" : [
+                                              "nume",
+                                              "prenume",
+                                              "adresa",
+                                              "telefon",
+                                              "agentie",
+                                              "mail",
+                                              "parola",
+                                              "motiv_stergere"
+                                            ]
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "content" : {
+                                            "type" : "expression",
+                                            "value" : "listaAgenti"
+                                          },
+                                          "zebraStriping" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "striped" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          }
+                                        },
+                                        "reference" : "f8d6b2ce-548a-4f45-83b3-0addcaf1818d",
+                                        "hasValidationError" : false,
+                                        "id" : "pbTable",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 1,
+                                          "sm" : 1,
+                                          "xs" : 1,
+                                          "lg" : 1
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!listaAgenti_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "08231940-46af-4f03-8e52-b7060820c9ea",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "rows" : [
+                                          [ ]
+                                        ]
+                                      },
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 11,
+                                          "sm" : 11,
+                                          "xs" : 11,
+                                          "lg" : 11
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!listaAgenti_selected"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 11
+                                          }
+                                        },
+                                        "reference" : "199a4af9-a424-48d8-b19b-06f11f8d931b",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "Display \"DMAgent\" details when a line is selected in the table above",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.nume"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Nume"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.nume"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "5fcdd4c9-8d32-488d-92c0-d2aa5fa4a3c9",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.prenume"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Prenume"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.prenume"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "7e5a3056-3cd6-49c7-8412-f76c9c22ebe0",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.adresa"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Adresa"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.adresa"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "80dd7ae0-f3f3-4074-ae98-c1fe623559ac",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.telefon"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Telefon"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.telefon"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "11e1ee65-7387-48b2-8d5f-b26affd54369",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.agentie"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Agentie"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.agentie"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "3388ef62-1b0b-4d9e-b8d4-35b2323caadb",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.mail"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Mail"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.mail"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "5d277ab0-83e0-4a22-a760-526f9f6488e8",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.parola"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Parola"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.parola"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                }
+                                              },
+                                              "reference" : "3f921bf8-91c3-466c-b208-f41ffc265876",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ],
+                                          [
+                                            {
+                                              "type" : "component",
+                                              "dimension" : {
+                                                "md" : 12,
+                                                "sm" : 12,
+                                                "xs" : 12,
+                                                "lg" : 12
+                                              },
+                                              "propertyValues" : {
+                                                "labelHidden" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                },
+                                                "hidden" : {
+                                                  "type" : "expression",
+                                                  "value" : "!listaAgenti_selected.motiv_stergere"
+                                                },
+                                                "labelPosition" : {
+                                                  "type" : "constant",
+                                                  "value" : "top"
+                                                },
+                                                "cssClasses" : {
+                                                  "type" : "constant",
+                                                  "value" : ""
+                                                },
+                                                "labelWidth" : {
+                                                  "type" : "constant",
+                                                  "value" : 1
+                                                },
+                                                "readOnly" : {
+                                                  "type" : "constant",
+                                                  "value" : true
+                                                },
+                                                "label" : {
+                                                  "type" : "interpolation",
+                                                  "value" : "Motiv_stergere"
+                                                },
+                                                "placeholder" : {
+                                                  "type" : "constant"
+                                                },
+                                                "type" : {
+                                                  "type" : "constant",
+                                                  "value" : "text"
+                                                },
+                                                "dimension" : {
+                                                  "type" : "constant",
+                                                  "value" : 12
+                                                },
+                                                "value" : {
+                                                  "type" : "variable",
+                                                  "value" : "listaAgenti_selected.motiv_stergere"
+                                                },
+                                                "required" : {
+                                                  "type" : "constant",
+                                                  "value" : false
+                                                }
+                                              },
+                                              "reference" : "8f951393-723d-4ad5-b41c-577699f1be9c",
+                                              "hasValidationError" : false,
+                                              "id" : "pbInput",
+                                              "description" : ""
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Start process"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  }
+                },
+                "reference" : "fb00ac92-9eb1-49f9-986a-068a10a03162",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "0cde809d-1634-4ebc-bb9b-bdb15c2db8a3",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "8a6ea226-655f-4589-9db9-707c40a29ef9",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "5134360d-e2c8-49ab-9105-a1b6716aca9c",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{ }"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "return {",
+        "    agentSelectat: $data.listaAgenti_selected.persistenceId,",
+        "    cumparatorSelectat: $data.listaCumparatori_selected.persistenceId",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "listaAgenti" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.luxmob.model.DMAgent]\",\"businessObjectName\":\"DMAgent\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.luxmob.model.DMAgent\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "listaAgenti_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "listaCumparatori" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [com.luxmob.model.DMCumparator]\",\"businessObjectName\":\"DMCumparator\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"com.luxmob.model.DMCumparator\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "listaCumparatori_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "2f85b164-80ca-46fc-a2a7-4e994fbe3a18",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "editareContCumparator",
   "name" : "editareContCumparator",
-  "lastUpdate" : 1621011826043,
+  "lastUpdate" : 1621016416344,
   "rows" : [
     [
       {
@@ -31,7 +31,7 @@
             "value" : 12
           }
         },
-        "reference" : "e9b327ab-1612-4f5f-8f6d-b5ecbcfd7bec",
+        "reference" : "e71132c5-c520-4c1a-b4fa-bf3f794271c3",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "description" : "Auto generate ui for business object \"com.luxmob.model.DMCumparator\"",
@@ -42,11 +42,24 @@
               "dimension" : {
                 "xs" : 12
               },
-              "propertyValues" : { },
-              "reference" : "adbeb728-7bc5-4899-928b-b40046eb6ebf",
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "07cdc8e5-2e19-4cf6-a22c-c472bf5046b4",
               "hasValidationError" : false,
               "id" : "pbContainer",
-              "description" : "\"com.luxmob.model.DMCumparator\" object from \"dMCumparator\" variable",
+              "description" : "\"com.luxmob.model.DMCumparator\" object from \"dMCumparator_query\" variable",
               "rows" : [
                 [
                   {
@@ -83,7 +96,7 @@
                         "value" : 12
                       }
                     },
-                    "reference" : "095ec879-d37a-45eb-806e-045e2724b1aa",
+                    "reference" : "b2a30f97-dd6a-4582-a060-5c0bea13f818",
                     "hasValidationError" : false,
                     "id" : "pbTitle",
                     "description" : ""
@@ -133,7 +146,7 @@
                       },
                       "selectedRow" : {
                         "type" : "variable",
-                        "value" : "dMCumparator_selected"
+                        "value" : "dMCumparator_query_selected"
                       },
                       "columnsKey" : {
                         "type" : "constant",
@@ -153,14 +166,22 @@
                       },
                       "content" : {
                         "type" : "expression",
-                        "value" : "dMCumparator"
+                        "value" : "dMCumparator_query"
                       },
                       "zebraStriping" : {
                         "type" : "constant",
                         "value" : true
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "striped" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
-                    "reference" : "79193f66-82cb-49b7-b4bd-1620761dcdef",
+                    "reference" : "4255ca0a-2a3d-42d1-b24e-89d950f58498",
                     "hasValidationError" : false,
                     "id" : "pbTable",
                     "description" : ""
@@ -177,11 +198,12 @@
                     },
                     "propertyValues" : {
                       "repeatedCollection" : {
-                        "type" : "variable"
+                        "type" : "variable",
+                        "value" : ""
                       },
                       "hidden" : {
                         "type" : "expression",
-                        "value" : "!dMCumparator_selected"
+                        "value" : "!dMCumparator_query_selected"
                       },
                       "cssClasses" : {
                         "type" : "constant",
@@ -192,7 +214,7 @@
                         "value" : 1
                       }
                     },
-                    "reference" : "ed5c9b11-27ff-4713-9895-87557e7d2bb8",
+                    "reference" : "f0b20a46-379a-49bc-a535-480cfb7b5e02",
                     "hasValidationError" : false,
                     "id" : "pbContainer",
                     "rows" : [
@@ -213,7 +235,7 @@
                       },
                       "hidden" : {
                         "type" : "expression",
-                        "value" : "!dMCumparator_selected"
+                        "value" : "!dMCumparator_query_selected"
                       },
                       "cssClasses" : {
                         "type" : "constant",
@@ -224,7 +246,7 @@
                         "value" : 11
                       }
                     },
-                    "reference" : "ae80b84e-c187-40a8-8703-2c94b2e54e7a",
+                    "reference" : "368ca27b-c736-4423-b5d4-0be32a75ae89",
                     "hasValidationError" : false,
                     "id" : "pbContainer",
                     "description" : "Display \"DMCumparator\" details when a line is selected in the table above",
@@ -245,7 +267,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.nume"
+                              "value" : "!dMCumparator_query_selected.nume"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -280,14 +302,32 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.nume"
+                              "value" : "dMCumparator_query_selected.nume"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
+                            },
+                            "minLength" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "maxLength" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "min" : {
+                              "type" : "constant"
+                            },
+                            "max" : {
+                              "type" : "constant"
+                            },
+                            "step" : {
+                              "type" : "constant",
+                              "value" : 1
                             }
                           },
-                          "reference" : "c2ec7b02-e676-4732-a926-4a34722894ef",
+                          "reference" : "a2cf2a59-ebb0-42a5-8211-763b0042662a",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -309,7 +349,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.prenume"
+                              "value" : "!dMCumparator_query_selected.prenume"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -344,14 +384,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.prenume"
+                              "value" : "dMCumparator_query_selected.prenume"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "9ed498e0-edea-4cdb-a7d6-ee4e23ff6a84",
+                          "reference" : "6f2bbde8-6dc3-4c0e-9535-6d64fffb5a18",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -373,7 +413,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.adresa"
+                              "value" : "!dMCumparator_query_selected.adresa"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -408,14 +448,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.adresa"
+                              "value" : "dMCumparator_query_selected.adresa"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "d991c1bc-0575-4863-9170-6f0eb3ebbc2c",
+                          "reference" : "39604341-5704-470e-bb85-bc44f93e1489",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -437,7 +477,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.telefon"
+                              "value" : "!dMCumparator_query_selected.telefon"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -472,14 +512,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.telefon"
+                              "value" : "dMCumparator_query_selected.telefon"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "be302fde-f2b0-4b16-a84e-ebfc55979051",
+                          "reference" : "fed46592-8962-450e-9fa9-2e74916fc3cb",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -501,7 +541,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.mail"
+                              "value" : "!dMCumparator_query_selected.mail"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -536,14 +576,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.mail"
+                              "value" : "dMCumparator_query_selected.mail"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "493c2b98-04d8-4f52-be37-c11bb541aa37",
+                          "reference" : "24858114-ea95-4652-822a-b2de14eb7017",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -565,7 +605,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.parola"
+                              "value" : "!dMCumparator_query_selected.parola"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -600,14 +640,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.parola"
+                              "value" : "dMCumparator_query_selected.parola"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "81e7abe2-3193-4b41-bf9b-e830752273e0",
+                          "reference" : "b55f0ebc-29d6-4623-9788-8e3b17ca2766",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -629,7 +669,7 @@
                             },
                             "hidden" : {
                               "type" : "expression",
-                              "value" : "!dMCumparator_selected.motiv_stergere"
+                              "value" : "!dMCumparator_query_selected.motiv_stergere"
                             },
                             "labelPosition" : {
                               "type" : "constant",
@@ -664,14 +704,14 @@
                             },
                             "value" : {
                               "type" : "variable",
-                              "value" : "dMCumparator_selected.motiv_stergere"
+                              "value" : "dMCumparator_query_selected.motiv_stergere"
                             },
                             "required" : {
                               "type" : "constant",
                               "value" : false
                             }
                           },
-                          "reference" : "fc72918b-3bc7-42cd-9207-8ce991ac3a54",
+                          "reference" : "bf53ba18-30bd-4a62-9edc-55a745cd06bf",
                           "hasValidationError" : false,
                           "id" : "pbInput",
                           "description" : ""
@@ -931,7 +971,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "selectedMail_selected.nume"
+                          "value" : "dMCumparator_query_selected.nume"
                         },
                         "required" : {
                           "type" : "constant",
@@ -1292,60 +1332,29 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "590ecc78-8155-444f-8448-89b7deb4714e",
                       "hasValidationError" : false,
                       "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!dateCumparator.motiv_stergere"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Motiv_stergere"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{dateCumparator.motiv_stergere}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "fb85515d-db24-49a3-8e7f-3752700b1d29",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
                       "description" : ""
                     }
                   ]
@@ -1588,6 +1597,20 @@
       "exposed" : false
     },
     "dMCumparator_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "dMCumparator_query" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByPersistenceId [com.luxmob.model.DMCumparator]\",\"businessObjectName\":\"undefined\",\"query\":{\"name\":\"findByPersistenceId\",\"displayName\":\"findByPersistenceId\"},\"id\":\"com.luxmob.model.DMCumparator\",\"filters\":[{\"name\":\"persistenceId\",\"type\":\"INTEGER\",\"collection\":false,\"value\":\"5\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "dMCumparator_query_selected" : {
       "type" : "constant",
       "value" : [
         ""
