@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="LUXMOB">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="cumparator_1">
+      <firstName>Cumparator 1</firstName>
+      <lastName>Test 1</lastName>
+      <title>Cumparator</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">1234</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="agent_1">
+      <firstName>Agent 1</firstName>
+      <lastName>Test 1</lastName>
+      <title>Agent</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">1234</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="admin_1">
+      <firstName>Admin 1</firstName>
+      <lastName>Test 1</lastName>
+      <title>Admin</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">1234</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="global_1">
+      <firstName>Global 1</firstName>
+      <lastName>Test 1</lastName>
+      <title>Global</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">1234</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Cumpărător">
+      <displayName>Cumpărător</displayName>
+    </role>
+    <role name="Agent imobiliar">
+      <displayName>Agent imobiliar</displayName>
+    </role>
+    <role name="Admin">
+      <displayName>Admin</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Utilizatori">
+      <displayName>Utilizatori</displayName>
+    </group>
+    <group name="Cumpărători" parentPath="/Utilizatori">
+      <displayName>Cumpărători</displayName>
+    </group>
+    <group name="Agenți imobiliari" parentPath="/Utilizatori">
+      <displayName>Agenți imobiliari</displayName>
+    </group>
+    <group name="Admini" parentPath="/Utilizatori">
+      <displayName>Admini</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>cumparator_1</userName>
+      <roleName>Cumpărător</roleName>
+      <groupName>Cumpărători</groupName>
+      <groupParentPath>/Utilizatori</groupParentPath>
+    </membership>
+    <membership>
+      <userName>agent_1</userName>
+      <roleName>Agent imobiliar</roleName>
+      <groupName>Agenți imobiliari</groupName>
+      <groupParentPath>/Utilizatori</groupParentPath>
+    </membership>
+    <membership>
+      <userName>admin_1</userName>
+      <roleName>Admin</roleName>
+      <groupName>Admini</groupName>
+      <groupParentPath>/Utilizatori</groupParentPath>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Cumpărător</roleName>
+      <groupName>Utilizatori</groupName>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Agent imobiliar</roleName>
+      <groupName>Utilizatori</groupName>
+    </membership>
+    <membership>
+      <userName>global_1</userName>
+      <roleName>Admin</roleName>
+      <groupName>Utilizatori</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
