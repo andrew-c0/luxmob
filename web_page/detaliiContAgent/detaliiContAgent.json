@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "detaliiContAgent",
   "name" : "detaliiContAgent",
-  "lastUpdate" : 1621016509932,
+  "lastUpdate" : 1621156310531,
   "rows" : [
     [
       {
@@ -433,7 +433,7 @@
                         },
                         "readOnly" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -537,6 +537,24 @@
                         "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "bbb88858-4f81-4f04-942a-740ce06d1dd4",

@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_Q-PTILQREeuju6Stncc5YQ" name="adaugareAnuntAgentDiagram" author="unciu" bonitaVersion="7.12.1" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_Q-PTIbQREeuju6Stncc5YQ" name="adaugareAnuntAgent">
-      <elements xmi:type="process:Lane" xmi:id="_Q-PTIrQREeuju6Stncc5YQ" name="Agent" actor="_Q-PTO7QREeuju6Stncc5YQ">
+      <elements xmi:type="process:Lane" xmi:id="_Q-PTIrQREeuju6Stncc5YQ" name="Agent" actor="_1_qQoLYwEeueft3gc972AA">
         <elements xmi:type="process:StartEvent" xmi:id="_Q-PTI7QREeuju6Stncc5YQ" name="Accesare platforma" outgoing="_Q-PTOLQREeuju6Stncc5YQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Q-PTJLQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Q-PTJbQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
@@ -12,135 +12,146 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Q-PTKLQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Q-PTKbQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Q-PTKrQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj2rQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj27QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj3LQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmYLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmYbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmYrYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj3bQTEeuju6Stncc5YQ" name="anuntInput.descriereAnunt" content="anuntInput?.descriereAnunt" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0Sj3rQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmY7YyEeueft3gc972AA" name="anuntInput.descriereAnunt" content="anuntInput?.descriereAnunt" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmZLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj37QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setDescriereAnunt">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmZbYyEeueft3gc972AA" type="JAVA_METHOD" expression="setDescriereAnunt">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj4LQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj4bQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj4rQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmZrYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmZ7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmaLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj47QTEeuju6Stncc5YQ" name="anuntInput.titluAnunt" content="anuntInput?.titluAnunt" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0Sj5LQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmabYyEeueft3gc972AA" name="anuntInput.titluAnunt" content="anuntInput?.titluAnunt" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmarYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj5bQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setTitluAnunt">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKma7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setTitluAnunt">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj5rQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj57QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj6LQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmbLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmbbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmbrYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj6bQTEeuju6Stncc5YQ" name="anuntInput.agent" content="anuntInput?.agent" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0Sj6rQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmb7YyEeueft3gc972AA" name="anuntInput.agent" content="anuntInput?.agent" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmcLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj67QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setAgent">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmcbYyEeueft3gc972AA" type="JAVA_METHOD" expression="setAgent">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj7LQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj7bQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj7rQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmcrYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmc7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmdLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj77QTEeuju6Stncc5YQ" name="anuntInput.dataAnunt" content="Date d1 = new Date().format('yyyy-MM-dd HH:mm:ss')&#xD;&#xA;java.sql.Time ppstime = new java.sql.Time(d1.getTime())&#xD;&#xA;&#xD;&#xA;return ppstime" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.OffsetDateTime"/>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj8bQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setDataAnunt">
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmdbYyEeueft3gc972AA" name="anuntInput.dataAnunt" content="anuntInput?.dataAnunt" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.OffsetDateTime">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmdrYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmd7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setDataAnunt">
               <inputTypes>java.time.OffsetDateTime</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj8rQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj87QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj9LQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmeLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmebYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmerYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj9bQTEeuju6Stncc5YQ" name="anuntInput.oras" content="anuntInput?.oras" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0Sj9rQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKme7YyEeueft3gc972AA" name="anuntInput.oras" content="anuntInput?.oras" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmfLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj97QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setOras">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmfbYyEeueft3gc972AA" type="JAVA_METHOD" expression="setOras">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj-LQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj-bQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0Sj-rQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmfrYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmf7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmgLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0Sj-7QTEeuju6Stncc5YQ" name="anuntInput.adresa" content="anuntInput?.adresa" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0Sj_LQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmgbYyEeueft3gc972AA" name="anuntInput.adresa" content="anuntInput?.adresa" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmgrYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0Sj_bQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setAdresa">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmg7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setAdresa">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0Sj_rQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0Sj_7QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkALQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmhLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmhbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmhrYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkAbQTEeuju6Stncc5YQ" name="anuntInput.zona" content="anuntInput?.zona" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkArQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmh7YyEeueft3gc972AA" name="anuntInput.zona" content="anuntInput?.zona" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmiLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkA7QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setZona">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmibYyEeueft3gc972AA" type="JAVA_METHOD" expression="setZona">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0SkBLQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0SkBbQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkBrQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmirYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmi7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmjLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkB7QTEeuju6Stncc5YQ" name="anuntInput.pret" content="anuntInput?.pret" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkCLQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmjbYyEeueft3gc972AA" name="anuntInput.pret" content="anuntInput?.pret" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmjrYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkCbQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setPret">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmj7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setPret">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0SkCrQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0SkC7QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkDLQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmkLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmkbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmkrYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkDbQTEeuju6Stncc5YQ" name="anuntInput.compartimentare" content="anuntInput?.compartimentare" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkDrQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmk7YyEeueft3gc972AA" name="anuntInput.compartimentare" content="anuntInput?.compartimentare" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmlLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkD7QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setCompartimentare">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmlbYyEeueft3gc972AA" type="JAVA_METHOD" expression="setCompartimentare">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0SkELQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0SkEbQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkErQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmlrYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKml7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmmLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkE7QTEeuju6Stncc5YQ" name="anuntInput.etaj" content="anuntInput?.etaj" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkFLQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmmbYyEeueft3gc972AA" name="anuntInput.etaj" content="anuntInput?.etaj" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmmrYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkFbQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setEtaj">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmm7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setEtaj">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0SkFrQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0SkF7QTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkGLQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmnLYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmnbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmnrYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkGbQTEeuju6Stncc5YQ" name="anuntInput.nrCamere" content="anuntInput?.nrCamere" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkGrQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmn7YyEeueft3gc972AA" name="anuntInput.nrCamere" content="anuntInput?.nrCamere" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmoLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkG7QTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setNrCamere">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmobYyEeueft3gc972AA" type="JAVA_METHOD" expression="setNrCamere">
               <inputTypes>java.lang.Integer</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_-0SkHLQTEeuju6Stncc5YQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_-0SkHbQTEeuju6Stncc5YQ" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_-0SkHrQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+          <operations xmi:type="expression:Operation" xmi:id="_mzKmorYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_mzKmo7YyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_mzKmpLYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_-0SkH7QTEeuju6Stncc5YQ" name="anuntInput.metriPatrati" content="anuntInput?.metriPatrati" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Double">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_-0SkILQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_mzKmpbYyEeueft3gc972AA" name="anuntInput.metriPatrati" content="anuntInput?.metriPatrati" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Double">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_mzKmprYyEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_-0SkIbQTEeuju6Stncc5YQ" type="JAVA_METHOD" expression="setMetriPatrati">
+            <operator xmi:type="expression:Operator" xmi:id="_mzKmp7YyEeueft3gc972AA" type="JAVA_METHOD" expression="setMetriPatrati">
               <inputTypes>java.lang.Double</inputTypes>
             </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_4fL00LY1Eeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_4fL00bY1Eeueft3gc972AA" name="dateAnuntCorecte" content="dateAnuntCorecte" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:Data" xmi:id="_5RGZ8LY1Eeueft3gc972AA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_4fL00rY1Eeueft3gc972AA" name="newScript()" content="if(&#xD;&#xA;&#x9;anuntInput.titlu != '' &amp;&amp;&#xD;&#xA;&#x9;anuntInput.adresa != '' &amp;&amp;&#xD;&#xA;&#x9;anuntInput.agent != '' &amp;&amp;&#xD;&#xA;&#x9;anuntInput.dataAnunt != '' &amp;&amp;&#xD;&#xA;&#x9;anuntInput.compartimentare != '' &amp;&amp;&#xD;&#xA;&#x9;anuntInput.etaj >= 0 &amp;&amp;&#xD;&#xA;&#x9;anuntInput.nrCamere > 0 &amp;&amp;&#xD;&#xA;&#x9;anuntInput.metriPatrati > 30 &amp;&amp;&#xD;&#xA;&#x9;anuntInput.pret > 10000&#xD;&#xA;&#x9;)&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;return true&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else{&#xD;&#xA;&#x9;return false&#xD;&#xA;&#x9;}" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_-JQv0LZCEeueft3gc972AA" name="anuntInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_4fL007Y1Eeueft3gc972AA" type="ASSIGNMENT"/>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_Q-PTK7QREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_Q-PTLLQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -151,48 +162,48 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_DdbSILQUEeuju6Stncc5YQ" name="adaugareAnuntAgent" content="15b4382f-4fbb-4c30-b4b3-d7f3b22627d5" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Q-PTMrQREeuju6Stncc5YQ">
-            <inputs xmi:type="process:ContractInput" xmi:id="_-0R8wLQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX" dataReference="anunt">
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8wbQTEeuju6Stncc5YQ" name="descriereAnunt"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8wrQTEeuju6Stncc5YQ" name="titluAnunt"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8w7QTEeuju6Stncc5YQ" name="agent"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8xLQTEeuju6Stncc5YQ" name="dataAnunt" type="OFFSETDATETIME"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8xbQTEeuju6Stncc5YQ" name="oras"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8xrQTEeuju6Stncc5YQ" name="adresa"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8x7QTEeuju6Stncc5YQ" name="zona"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8yLQTEeuju6Stncc5YQ" name="pret"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8ybQTEeuju6Stncc5YQ" name="compartimentare"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8yrQTEeuju6Stncc5YQ" name="etaj"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8y7QTEeuju6Stncc5YQ" name="nrCamere" type="INTEGER"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_-0R8zLQTEeuju6Stncc5YQ" name="metriPatrati" type="DECIMAL"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_mzJYQLYyEeueft3gc972AA" name="anuntInput" type="COMPLEX" dataReference="anunt">
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYQbYyEeueft3gc972AA" name="descriereAnunt"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYQrYyEeueft3gc972AA" name="titluAnunt"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYQ7YyEeueft3gc972AA" name="agent"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYRLYyEeueft3gc972AA" name="dataAnunt" type="OFFSETDATETIME"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYRbYyEeueft3gc972AA" name="oras"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYRrYyEeueft3gc972AA" name="adresa"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYR7YyEeueft3gc972AA" name="zona"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYSLYyEeueft3gc972AA" name="pret"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYSbYyEeueft3gc972AA" name="compartimentare"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYSrYyEeueft3gc972AA" name="etaj"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYS7YyEeueft3gc972AA" name="nrCamere" type="INTEGER"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_mzJYTLYyEeueft3gc972AA" name="metriPatrati" type="DECIMAL"/>
             </inputs>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj0LQTEeuju6Stncc5YQ" expression="anuntInput?.titluAnunt != null" errorMessage="titluAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_titluAnunt">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_ULYyEeueft3gc972AA" expression="anuntInput?.titluAnunt != null" errorMessage="titluAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_titluAnunt">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj0bQTEeuju6Stncc5YQ" expression="anuntInput?.agent != null" errorMessage="agent is mandatory for DMAnuntAgent" name="mandatory_anuntInput_agent">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_UbYyEeueft3gc972AA" expression="anuntInput?.agent != null" errorMessage="agent is mandatory for DMAnuntAgent" name="mandatory_anuntInput_agent">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj0rQTEeuju6Stncc5YQ" expression="anuntInput?.dataAnunt != null" errorMessage="dataAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_dataAnunt">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_UrYyEeueft3gc972AA" expression="anuntInput?.dataAnunt != null" errorMessage="dataAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_dataAnunt">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj07QTEeuju6Stncc5YQ" expression="anuntInput?.oras != null" errorMessage="oras is mandatory for DMAnuntAgent" name="mandatory_anuntInput_oras">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_U7YyEeueft3gc972AA" expression="anuntInput?.oras != null" errorMessage="oras is mandatory for DMAnuntAgent" name="mandatory_anuntInput_oras">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj1LQTEeuju6Stncc5YQ" expression="anuntInput?.adresa != null" errorMessage="adresa is mandatory for DMAnuntAgent" name="mandatory_anuntInput_adresa">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_VLYyEeueft3gc972AA" expression="anuntInput?.adresa != null" errorMessage="adresa is mandatory for DMAnuntAgent" name="mandatory_anuntInput_adresa">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj1bQTEeuju6Stncc5YQ" expression="anuntInput?.pret != null" errorMessage="pret is mandatory for DMAnuntAgent" name="mandatory_anuntInput_pret">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_VbYyEeueft3gc972AA" expression="anuntInput?.pret != null" errorMessage="pret is mandatory for DMAnuntAgent" name="mandatory_anuntInput_pret">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj1rQTEeuju6Stncc5YQ" expression="anuntInput?.compartimentare != null" errorMessage="compartimentare is mandatory for DMAnuntAgent" name="mandatory_anuntInput_compartimentare">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_VrYyEeueft3gc972AA" expression="anuntInput?.compartimentare != null" errorMessage="compartimentare is mandatory for DMAnuntAgent" name="mandatory_anuntInput_compartimentare">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj17QTEeuju6Stncc5YQ" expression="anuntInput?.etaj != null" errorMessage="etaj is mandatory for DMAnuntAgent" name="mandatory_anuntInput_etaj">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_V7YyEeueft3gc972AA" expression="anuntInput?.etaj != null" errorMessage="etaj is mandatory for DMAnuntAgent" name="mandatory_anuntInput_etaj">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj2LQTEeuju6Stncc5YQ" expression="anuntInput?.nrCamere != null" errorMessage="nrCamere is mandatory for DMAnuntAgent" name="mandatory_anuntInput_nrCamere">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_WLYyEeueft3gc972AA" expression="anuntInput?.nrCamere != null" errorMessage="nrCamere is mandatory for DMAnuntAgent" name="mandatory_anuntInput_nrCamere">
               <inputNames>anuntInput</inputNames>
             </constraints>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_-0Sj2bQTEeuju6Stncc5YQ" expression="anuntInput?.metriPatrati != null" errorMessage="metriPatrati is mandatory for DMAnuntAgent" name="mandatory_anuntInput_metriPatrati">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_mzJ_WbYyEeueft3gc972AA" expression="anuntInput?.metriPatrati != null" errorMessage="metriPatrati is mandatory for DMAnuntAgent" name="mandatory_anuntInput_metriPatrati">
               <inputNames>anuntInput</inputNames>
             </constraints>
           </contract>
@@ -203,19 +214,41 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_jS4vMbQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_jS4vM7QREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_0uN9oLQREeuju6Stncc5YQ" name="Informatii incorecte" outgoing="_3iYuYLQREeuju6Stncc5YQ" incoming="_s1My8LQREeuju6Stncc5YQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_0uN9oLQREeuju6Stncc5YQ" name="Selectare decizie" outgoing="_3iYuYLQREeuju6Stncc5YQ" incoming="_s1My8LQREeuju6Stncc5YQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_s1H6crQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_s1H6cbQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_s1H6c7QREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_8Jr4ALYyEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_8Jr4AbYyEeueft3gc972AA" name="anunt" content="anunt" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMAnuntAgent">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_8yZd0LYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_8Jr4ArYyEeueft3gc972AA" content=""/>
+            <operator xmi:type="expression:Operator" xmi:id="_8Jr4A7YyEeueft3gc972AA" type="DELETION"/>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_Gv6P0LYzEeueft3gc972AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_Gv6P0bYzEeueft3gc972AA" name="decizieReincercare" content="decizieReincercare" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:Data" xmi:id="_HRzb8LYzEeueft3gc972AA" name="decizieReincercare" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Gv6P0rYzEeueft3gc972AA" name="decizieReincercareInput" content="decizieReincercareInput" type="TYPE_CONTRACT_INPUT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_H3imQLYzEeueft3gc972AA" name="decizieReincercareInput" type="BOOLEAN">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_H3imQbYzEeueft3gc972AA"/>
+              </referencedElements>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_Gv6P07YzEeueft3gc972AA" type="ASSIGNMENT"/>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_s1H6dLQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_s1H6dbQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_s1H6drQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_s1IhgbQREeuju6Stncc5YQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_s1IhgLQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_0uRA87QREeuju6Stncc5YQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_p3erQLTaEeu60qHvyVQuUA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_uX28ULYxEeueft3gc972AA" name="decizieReincercareCheckAnunt" content="969df731-3556-4d2a-8eca-b53fbc00a250" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_0uRA8rQREeuju6Stncc5YQ"/>
+          <contract xmi:type="process:Contract" xmi:id="_0uRA8rQREeuju6Stncc5YQ">
+            <inputs xmi:type="process:ContractInput" xmi:id="_yTAt0LYyEeueft3gc972AA" name="decizieReincercareInput" type="BOOLEAN">
+              <mapping xmi:type="process:ContractInputMapping" xmi:id="_yTAt0bYyEeueft3gc972AA"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_0uRA9bQREeuju6Stncc5YQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_EzLPALQSEeuju6Stncc5YQ" name="Anunt anulat" incoming="_EzTK0LQSEeuju6Stncc5YQ">
@@ -234,41 +267,44 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_3iVrELQREeuju6Stncc5YQ" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_mwOt4LQTEeuju6Stncc5YQ" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_zfufWrQTEeuju6Stncc5YQ" name="initAnunt()" content="def dMAnuntAgentVar = new com.luxmob.model.DMAnuntAgent()&#xD;&#xA;dMAnuntAgentVar.descriereAnunt = anuntInput?.descriereAnunt&#xD;&#xA;dMAnuntAgentVar.titluAnunt = anuntInput?.titluAnunt&#xD;&#xA;dMAnuntAgentVar.agent = anuntInput?.agent&#xD;&#xA;dMAnuntAgentVar.dataAnunt = anuntInput?.dataAnunt&#xD;&#xA;dMAnuntAgentVar.oras = anuntInput?.oras&#xD;&#xA;dMAnuntAgentVar.adresa = anuntInput?.adresa&#xD;&#xA;dMAnuntAgentVar.zona = anuntInput?.zona&#xD;&#xA;dMAnuntAgentVar.pret = anuntInput?.pret&#xD;&#xA;dMAnuntAgentVar.compartimentare = anuntInput?.compartimentare&#xD;&#xA;dMAnuntAgentVar.etaj = anuntInput?.etaj&#xD;&#xA;dMAnuntAgentVar.nrCamere = anuntInput?.nrCamere&#xD;&#xA;dMAnuntAgentVar.metriPatrati = anuntInput?.metriPatrati&#xD;&#xA;return dMAnuntAgentVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.luxmob.model.DMAnuntAgent">
-          <referencedElements xmi:type="process:ContractInput" xmi:id="_zfufW7QTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX"/>
-        </defaultValue>
-      </data>
       <data xmi:type="process:Data" xmi:id="_tHEwkLTWEeu60qHvyVQuUA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ">
         <defaultValue xmi:type="expression:Expression" xmi:id="_tHEwkbTWEeu60qHvyVQuUA" content="" returnType="java.lang.Boolean"/>
       </data>
+      <data xmi:type="process:Data" xmi:id="_U9OVALYxEeueft3gc972AA" name="decizieReincercare" dataType="_Q-PTTLQREeuju6Stncc5YQ">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_U9OVAbYxEeueft3gc972AA" content="" returnType="java.lang.Boolean"/>
+      </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_WpwS0LYyEeueft3gc972AA" name="anunt" dataType="_Q-PTVLQREeuju6Stncc5YQ" className="com.luxmob.model.DMAnuntAgent">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_WpwS0bYyEeueft3gc972AA" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_Q-PTNLQREeuju6Stncc5YQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_p3erQbTaEeu60qHvyVQuUA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_Li3LALY_Eeueft3gc972AA" name="adaugareAnuntAgentStart" content="17abe4ee-201a-41be-99d6-1ede160693d4" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_Q-PTNrQREeuju6Stncc5YQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Q-PTN7QREeuju6Stncc5YQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ehG9sLY_Eeueft3gc972AA" name="adaugareAnuntAgentOverview" content="0be3ec5a-539d-4f0f-a392-d664b4e6e216" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
       <connections xmi:type="process:SequenceFlow" xmi:id="_Q-PTOLQREeuju6Stncc5YQ" target="_Q-PTJ7QREeuju6Stncc5YQ" source="_Q-PTI7QREeuju6Stncc5YQ">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Q-PTObQREeuju6Stncc5YQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_Q-PTOrQREeuju6Stncc5YQ" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_Q-PTOrQREeuju6Stncc5YQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_h6jqULQREeuju6Stncc5YQ" name="Date trimise" target="_K93PoLQSEeuju6Stncc5YQ" source="_Q-PTJ7QREeuju6Stncc5YQ" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_h6jqUbQREeuju6Stncc5YQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_h6jqUrQREeuju6Stncc5YQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_jS_c4LQREeuju6Stncc5YQ" name="Date valide" target="_jS4vMLQREeuju6Stncc5YQ" source="_K93PoLQSEeuju6Stncc5YQ" isDefault="true">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_jS_c4LQREeuju6Stncc5YQ" name="Date valide" target="_jS4vMLQREeuju6Stncc5YQ" source="_K93PoLQSEeuju6Stncc5YQ">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_jTAD8LQREeuju6Stncc5YQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_jTAD8bQREeuju6Stncc5YQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-      </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_s1My8LQREeuju6Stncc5YQ" name="Date invalide" target="_0uN9oLQREeuju6Stncc5YQ" source="_K93PoLQSEeuju6Stncc5YQ">
-        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_s1My8bQREeuju6Stncc5YQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_s1My8rQREeuju6Stncc5YQ" name="dateAnuntCorecte" content="dateAnuntCorecte == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:Data" xmi:id="_7eDdMLTWEeu60qHvyVQuUA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
+        <condition xmi:type="expression:Expression" xmi:id="_jTAD8bQREeuju6Stncc5YQ" name="newScript()" content="dateAnuntCorecte == true" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:Data" xmi:id="_DaW2ALZDEeueft3gc972AA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
         </condition>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_3iYuYLQREeuju6Stncc5YQ" target="_NyhvoLQSEeuju6Stncc5YQ" source="_0uN9oLQREeuju6Stncc5YQ">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_s1My8LQREeuju6Stncc5YQ" name="Date invalide" target="_0uN9oLQREeuju6Stncc5YQ" source="_K93PoLQSEeuju6Stncc5YQ" isDefault="true">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_s1My8bQREeuju6Stncc5YQ"/>
+        <condition xmi:type="expression:Expression" xmi:id="_s1My8rQREeuju6Stncc5YQ" name="dateAnuntCorecte" content="dateAnuntCorecte == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:Data" xmi:id="_DPr8QLYxEeueft3gc972AA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
+        </condition>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_3iYuYLQREeuju6Stncc5YQ" target="_NyhvoLQSEeuju6Stncc5YQ" source="_0uN9oLQREeuju6Stncc5YQ" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_3iYuYbQREeuju6Stncc5YQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_3iYuYrQREeuju6Stncc5YQ" name="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_3iYuYrQREeuju6Stncc5YQ" name="" content="" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_8lHBYLQREeuju6Stncc5YQ" name="Reintroducere date anunt" target="_Q-PTJ7QREeuju6Stncc5YQ" source="_NyhvoLQSEeuju6Stncc5YQ" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_8lHocLQREeuju6Stncc5YQ"/>
@@ -276,57 +312,12 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_EzTK0LQSEeuju6Stncc5YQ" name="Renuntare creare anunt" target="_EzLPALQSEeuju6Stncc5YQ" source="_NyhvoLQSEeuju6Stncc5YQ">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_EzTK0bQSEeuju6Stncc5YQ"/>
-        <condition xmi:type="expression:Expression" xmi:id="_EzTK0rQSEeuju6Stncc5YQ" name="newScript()" content="dateAnuntCorecte == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:Data" xmi:id="_J5PUYLTXEeu60qHvyVQuUA" name="dateAnuntCorecte" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
+        <condition xmi:type="expression:Expression" xmi:id="_EzTK0rQSEeuju6Stncc5YQ" name="newScript()" content="decizieReincercare == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:Data" xmi:id="_vVdI0LY4Eeueft3gc972AA" name="decizieReincercare" dataType="_Q-PTTLQREeuju6Stncc5YQ"/>
         </condition>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_Q-PTO7QREeuju6Stncc5YQ" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
-      <contract xmi:type="process:Contract" xmi:id="_Q-PTPLQREeuju6Stncc5YQ">
-        <inputs xmi:type="process:ContractInput" xmi:id="_zft4QLQTEeuju6Stncc5YQ" name="anuntInput" type="COMPLEX" dataReference="anunt">
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4QbQTEeuju6Stncc5YQ" name="descriereAnunt"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4QrQTEeuju6Stncc5YQ" name="titluAnunt"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4Q7QTEeuju6Stncc5YQ" name="agent"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4RLQTEeuju6Stncc5YQ" name="dataAnunt" type="OFFSETDATETIME"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4RbQTEeuju6Stncc5YQ" name="oras"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4RrQTEeuju6Stncc5YQ" name="adresa"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4R7QTEeuju6Stncc5YQ" name="zona"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4SLQTEeuju6Stncc5YQ" name="pret"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4SbQTEeuju6Stncc5YQ" name="compartimentare"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4SrQTEeuju6Stncc5YQ" name="etaj"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4S7QTEeuju6Stncc5YQ" name="nrCamere" type="INTEGER"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_zft4TLQTEeuju6Stncc5YQ" name="metriPatrati" type="DECIMAL"/>
-        </inputs>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufULQTEeuju6Stncc5YQ" expression="anuntInput?.titluAnunt != null" errorMessage="titluAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_titluAnunt">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufUbQTEeuju6Stncc5YQ" expression="anuntInput?.agent != null" errorMessage="agent is mandatory for DMAnuntAgent" name="mandatory_anuntInput_agent">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufUrQTEeuju6Stncc5YQ" expression="anuntInput?.dataAnunt != null" errorMessage="dataAnunt is mandatory for DMAnuntAgent" name="mandatory_anuntInput_dataAnunt">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufU7QTEeuju6Stncc5YQ" expression="anuntInput?.oras != null" errorMessage="oras is mandatory for DMAnuntAgent" name="mandatory_anuntInput_oras">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufVLQTEeuju6Stncc5YQ" expression="anuntInput?.adresa != null" errorMessage="adresa is mandatory for DMAnuntAgent" name="mandatory_anuntInput_adresa">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufVbQTEeuju6Stncc5YQ" expression="anuntInput?.pret != null" errorMessage="pret is mandatory for DMAnuntAgent" name="mandatory_anuntInput_pret">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufVrQTEeuju6Stncc5YQ" expression="anuntInput?.compartimentare != null" errorMessage="compartimentare is mandatory for DMAnuntAgent" name="mandatory_anuntInput_compartimentare">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufV7QTEeuju6Stncc5YQ" expression="anuntInput?.etaj != null" errorMessage="etaj is mandatory for DMAnuntAgent" name="mandatory_anuntInput_etaj">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufWLQTEeuju6Stncc5YQ" expression="anuntInput?.nrCamere != null" errorMessage="nrCamere is mandatory for DMAnuntAgent" name="mandatory_anuntInput_nrCamere">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_zfufWbQTEeuju6Stncc5YQ" expression="anuntInput?.metriPatrati != null" errorMessage="metriPatrati is mandatory for DMAnuntAgent" name="mandatory_anuntInput_metriPatrati">
-          <inputNames>anuntInput</inputNames>
-        </constraints>
-      </contract>
+      <actors xmi:type="process:Actor" xmi:id="_1_qQoLYwEeueft3gc972AA" name="Agent" initiator="true"/>
+      <contract xmi:type="process:Contract" xmi:id="_Q-PTPLQREeuju6Stncc5YQ"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_Q-PTPbQREeuju6Stncc5YQ">
         <name xmi:type="expression:Expression" xmi:id="_Q-PTPrQREeuju6Stncc5YQ" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_Q-PTP7QREeuju6Stncc5YQ" content="" returnTypeFixed="true"/>
@@ -393,7 +384,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_K94dwLQSEeuju6Stncc5YQ" type="3008" element="_K93PoLQSEeuju6Stncc5YQ" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_K94dwrQSEeuju6Stncc5YQ" type="5026">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_K94dw7QSEeuju6Stncc5YQ" y="5"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_K94dw7QSEeuju6Stncc5YQ" x="3" y="-66"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K94dwbQSEeuju6Stncc5YQ" x="470" y="62" width="43" height="43"/>
             </children>

@@ -2,7 +2,7 @@
   "modelVersion" : "2.0",
   "id" : "decizieReincercareCheckAgent",
   "name" : "decizieReincercareCheckAgent",
-  "lastUpdate" : 1620928426487,
+  "lastUpdate" : 1621155727614,
   "rows" : [
     [
       {
@@ -10,98 +10,53 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
         "reference" : "8c20047b-ffd9-4d36-a433-95233eb3cd93",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
           [
             {
-              "type" : "component",
+              "type" : "container",
               "dimension" : {
-                "md" : 12,
-                "sm" : 12,
                 "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
                 "lg" : 12
               },
               "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 1"
-                },
                 "cssClasses" : {
                   "type" : "constant",
                   "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "c19de8a1-b604-4bb2-bfbb-6c604967b796",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "allowHtml" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
                 },
                 "hidden" : {
                   "type" : "constant",
                   "value" : false
                 },
-                "cssClasses" : {
-                  "type" : "constant",
+                "repeatedCollection" : {
+                  "type" : "variable",
                   "value" : ""
-                },
-                "label" : {
-                  "type" : "interpolation"
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayDescription }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
                 }
               },
-              "reference" : "a9756e4e-d434-4603-850c-28c38fd6b52e",
+              "reference" : "bdea9a38-3f8c-497e-837b-e3ff6cc50229",
               "hasValidationError" : false,
-              "id" : "pbText",
-              "description" : ""
+              "id" : "pbContainer",
+              "rows" : [
+                [ ]
+              ]
             }
           ]
         ]
@@ -131,6 +86,58 @@
               {
                 "type" : "component",
                 "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Din păcate, există deja un utilizator cu datele introduse. Doriți să încercați din nou crearea contului cu alte informații?"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "42dd7794-348b-4481-864b-4863c5503148",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
                   "md" : 12,
                   "sm" : 12,
                   "xs" : 12,
@@ -155,7 +162,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Decizie Reîncercare Input"
+                    "value" : "Doresc să reîncerc crearea contului"
                   },
                   "dimension" : {
                     "type" : "constant",

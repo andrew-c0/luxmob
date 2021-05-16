@@ -208,7 +208,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_1W55tLWPEeuL__bcx_13gQ" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_1W55sbWPEeuL__bcx_13gQ" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1W55srWPEeuL__bcx_13gQ" points="[-22, 13, 266, -1]$[-22, 112, 266, 98]$[-263, 112, 25, 98]$[-263, 25, 25, 11]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1W55srWPEeuL__bcx_13gQ" points="[-22, 13, 259, -2]$[-22, 112, 259, 97]$[-249, 112, 32, 97]$[-249, 29, 32, 14]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1W7u4LWPEeuL__bcx_13gQ" id="(1.0,0.6976744186046512)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1W7u4bWPEeuL__bcx_13gQ" id="(0.2833333333333333,0.8166666666666667)"/>
     </edges>

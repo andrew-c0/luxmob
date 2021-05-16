@@ -18,7 +18,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_xcVo_rWMEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_xcVo_7WMEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_xcVpALWMEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyELWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TkLZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_xcVpArWMEeuMBq0EpHWPkw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_xcVpA7WMEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -78,7 +78,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_J9OS4LWPEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_J9Nr17WPEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_LxY_M7WPEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyEbWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TkbZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_LxY_MrWPEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_FJh1MLWhEeuMBq0EpHWPkw" name="achizitieInput" type="COMPLEX" dataReference="achizitie">
@@ -143,7 +143,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_RHwfkrWSEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_RHwfkbWSEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_SXAg-rWSEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyErWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TkrZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_SXAg-bWSEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="__ibxMLWdEeuMBq0EpHWPkw" name="cumparaImobil" type="BOOLEAN">
@@ -234,7 +234,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_18OF57WSEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_18OF5rWSEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_3RsEALWSEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyE7WlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3Tk7ZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_3Rrc-bWSEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_UxJDQLWhEeuMBq0EpHWPkw" name="achizitieInput" type="COMPLEX" dataReference="achizitie" createMode="false">
@@ -346,7 +346,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Yu_2aLWVEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Yu_2Z7WVEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Z0pP2rWVEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyFLWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TlLZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Z0pP2bWVEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_cwaHQLWeEeuMBq0EpHWPkw" name="achizitieInput" type="COMPLEX" dataReference="achizitie" createMode="false">
@@ -413,7 +413,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Nk4R57WWEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Nk4R5rWWEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_P2cr6bWWEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyFbWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TlbZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_P2cr6LWWEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_pLjZULWeEeuMBq0EpHWPkw" name="confirmareAchizitieInput" type="BOOLEAN">
@@ -442,7 +442,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_RVBisLWWEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_RVBisrWWEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:ScriptTask" xmi:id="_49PzoLWiEeuMBq0EpHWPkw" name="Status de finalizare" outgoing="_49YWgLWiEeuMBq0EpHWPkw" incoming="_NZDm8LWXEeuMBq0EpHWPkw">
+        <elements xmi:type="process:ScriptTask" xmi:id="_49PzoLWiEeuMBq0EpHWPkw" name="Stabilire status de finalizare" outgoing="_49YWgLWiEeuMBq0EpHWPkw" incoming="_NZDm8LWXEeuMBq0EpHWPkw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_49QasbWiEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_49QasLWiEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_49QasrWiEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
@@ -524,7 +524,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_yVkkx7WREeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_yVkkxrWREeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_2tiqmrWREeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyFrWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TlrZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_2tiqmbWREeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_rbU5ALWdEeuMBq0EpHWPkw" name="dataVizita" type="DATE">
@@ -564,7 +564,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_McMIV7WSEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_McMIVrWSEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_SCtE5LWSEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyF7WlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3Tl7ZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_SCtE47WSEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_5_7x8LWdEeuMBq0EpHWPkw" name="confirmareVizita" type="BOOLEAN">
@@ -603,7 +603,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_tWx6GLWSEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_tWx6F7WSEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_wOXySrWSEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyGLWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TmLZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_wOXySbWSEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_bbZxQLWgEeuMBq0EpHWPkw" name="fisierPrecontractFile" type="FILE">
@@ -655,7 +655,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_f46U1bWUEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_f46U1LWUEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_aH2fsLWVEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyGbWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TmbZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_aH14qbWVEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_U1Z_kLWeEeuMBq0EpHWPkw" name="precontractValidInput" type="BOOLEAN">
@@ -694,7 +694,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_MESeV7WVEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_MESeVrWVEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_aaXMCbWVEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyGrWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TmrZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_aaXMCLWVEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_jt5y8LWgEeuMBq0EpHWPkw" name="fisierContractFile" type="FILE">
@@ -725,7 +725,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_keeVR7WVEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_keeVRrWVEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_mbs2-bWVEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyG7WlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3Tm7ZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_mbs2-LWVEeuMBq0EpHWPkw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_mbs2-7WVEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -760,7 +760,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_poKL6LWVEeuMBq0EpHWPkw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_poKL57WVEeuMBq0EpHWPkw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_qlkPWbWVEeuMBq0EpHWPkw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_SdEyHLWlEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2n3TnLZFEeueft3gc972AA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_qlkPWLWVEeuMBq0EpHWPkw">
             <inputs xmi:type="process:ContractInput" xmi:id="_g7LekLWeEeuMBq0EpHWPkw" name="validarePlataContract" type="BOOLEAN">
@@ -781,12 +781,7 @@
         </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_JJZ6MLWYEeuMBq0EpHWPkw" name="achizitie" dataType="_xcVpJLWMEeuMBq0EpHWPkw" className="com.luxmob.model.DMAchizitie">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_jcDVVbWdEeuMBq0EpHWPkw" name="initAchizitie()" content="def dMAchizitieVar = new com.luxmob.model.DMAchizitie()&#xD;&#xA;dMAchizitieVar.anunt = {&#xD;&#xA;&#x9;//Retrieve aggregated DMAnuntAgent using its DAO and persistenceId&#xD;&#xA;&#x9;def dMAnuntAgentVar = dMAnuntAgentDAO.findByPersistenceId(achizitieInput?.anunt?.persistenceId_string?.trim() ? achizitieInput.anunt.persistenceId_string.toLong() : null)&#xD;&#xA;&#x9;if (!dMAnuntAgentVar) {&#xD;&#xA;&#x9;&#x9;if (achizitieInput?.anunt?.persistenceId_string?.trim() ? achizitieInput.anunt.persistenceId_string.toLong() : null) {&#xD;&#xA;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;The aggregated reference of type `DMAnuntAgent` with the persistence id &quot; + achizitieInput?.anunt?.persistenceId_string?.trim() ? achizitieInput.anunt.persistenceId_string.toLong() : null + &quot; has not been found.&quot;)&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;return null&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;return dMAnuntAgentVar}()&#xD;&#xA;dMAchizitieVar.cumparator = {&#xD;&#xA;&#x9;//Retrieve aggregated DMCumparator using its DAO and persistenceId&#xD;&#xA;&#x9;def dMCumparatorVar = dMCumparatorDAO.findByPersistenceId(achizitieInput?.cumparator?.persistenceId_string?.trim() ? achizitieInput.cumparator.persistenceId_string.toLong() : null)&#xD;&#xA;&#x9;if (!dMCumparatorVar) {&#xD;&#xA;&#x9;&#x9;if (achizitieInput?.cumparator?.persistenceId_string?.trim() ? achizitieInput.cumparator.persistenceId_string.toLong() : null) {&#xD;&#xA;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;The aggregated reference of type `DMCumparator` with the persistence id &quot; + achizitieInput?.cumparator?.persistenceId_string?.trim() ? achizitieInput.cumparator.persistenceId_string.toLong() : null + &quot; has not been found.&quot;)&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;return null&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;return dMCumparatorVar}()&#xD;&#xA;dMAchizitieVar.agent = {&#xD;&#xA;&#x9;//Retrieve aggregated DMAgent using its DAO and persistenceId&#xD;&#xA;&#x9;def dMAgentVar = dMAgentDAO.findByPersistenceId(achizitieInput?.agent?.persistenceId_string?.trim() ? achizitieInput.agent.persistenceId_string.toLong() : null)&#xD;&#xA;&#x9;if (!dMAgentVar) {&#xD;&#xA;&#x9;&#x9;if (achizitieInput?.agent?.persistenceId_string?.trim() ? achizitieInput.agent.persistenceId_string.toLong() : null) {&#xD;&#xA;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;The aggregated reference of type `DMAgent` with the persistence id &quot; + achizitieInput?.agent?.persistenceId_string?.trim() ? achizitieInput.agent.persistenceId_string.toLong() : null + &quot; has not been found.&quot;)&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;return null&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;return dMAgentVar}()&#xD;&#xA;return dMAchizitieVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.luxmob.model.DMAchizitie">
-          <referencedElements xmi:type="process:ContractInput" xmi:id="_jcDVVrWdEeuMBq0EpHWPkw" name="achizitieInput" type="COMPLEX"/>
-          <referencedElements xmi:type="expression:Expression" xmi:id="_jcDVV7WdEeuMBq0EpHWPkw" name="dMAnuntAgentDAO" content="dMAnuntAgentDAO" type="TYPE_BUSINESS_OBJECT_DAO" returnType="com.luxmob.model.DMAnuntAgentDAO" returnTypeFixed="true"/>
-          <referencedElements xmi:type="expression:Expression" xmi:id="_jcDVWLWdEeuMBq0EpHWPkw" name="dMCumparatorDAO" content="dMCumparatorDAO" type="TYPE_BUSINESS_OBJECT_DAO" returnType="com.luxmob.model.DMCumparatorDAO" returnTypeFixed="true"/>
-          <referencedElements xmi:type="expression:Expression" xmi:id="_jcDVWbWdEeuMBq0EpHWPkw" name="dMAgentDAO" content="dMAgentDAO" type="TYPE_BUSINESS_OBJECT_DAO" returnType="com.luxmob.model.DMAgentDAO" returnTypeFixed="true"/>
-        </defaultValue>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_jcDVVbWdEeuMBq0EpHWPkw" name="" content="" interpreter="GROOVY"/>
       </data>
       <data xmi:type="process:BusinessObjectData" xmi:id="_LC_SALWYEeuMBq0EpHWPkw" name="anunt" dataType="_xcVpJLWMEeuMBq0EpHWPkw" className="com.luxmob.model.DMAnuntAgent">
         <defaultValue xmi:type="expression:Expression" xmi:id="_LC_SAbWYEeuMBq0EpHWPkw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
@@ -831,7 +826,7 @@
         <targetForm xmi:type="expression:Expression" xmi:id="_hwdHcLWjEeuMBq0EpHWPkw" name="achizitieImobilStart" content="1cf26adf-b5bd-4faf-87e5-46fbadabafaa" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_xcVpBrWMEeuMBq0EpHWPkw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_xcVpB7WMEeuMBq0EpHWPkw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_L7LVoLZFEeueft3gc972AA" name="achizitieImobilOverview" content="9cb9bee3-8716-4137-b606-e74dd1095187" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
       <connections xmi:type="process:SequenceFlow" xmi:id="_xcVpCLWMEeuMBq0EpHWPkw" target="_xcVo97WMEeuMBq0EpHWPkw" source="_xcVo87WMEeuMBq0EpHWPkw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_xcVpCbWMEeuMBq0EpHWPkw"/>
@@ -985,37 +980,7 @@
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_HH_p0LWdEeuMBq0EpHWPkw" name="Agent imobiliar"/>
       <actors xmi:type="process:Actor" xmi:id="_ICT9ALWdEeuMBq0EpHWPkw" name="Cumpărător" initiator="true"/>
-      <contract xmi:type="process:Contract" xmi:id="_xcVpDLWMEeuMBq0EpHWPkw">
-        <inputs xmi:type="process:ContractInput" xmi:id="_jcCuQLWdEeuMBq0EpHWPkw" name="achizitieInput" type="COMPLEX" dataReference="achizitie">
-          <inputs xmi:type="process:ContractInput" xmi:id="_jcCuQbWdEeuMBq0EpHWPkw" name="anunt" type="COMPLEX">
-            <inputs xmi:type="process:ContractInput" xmi:id="_jcCuQrWdEeuMBq0EpHWPkw" name="persistenceId_string"/>
-          </inputs>
-          <inputs xmi:type="process:ContractInput" xmi:id="_jcCuQ7WdEeuMBq0EpHWPkw" name="cumparator" type="COMPLEX">
-            <inputs xmi:type="process:ContractInput" xmi:id="_jcCuRLWdEeuMBq0EpHWPkw" name="persistenceId_string"/>
-          </inputs>
-          <inputs xmi:type="process:ContractInput" xmi:id="_jcCuRbWdEeuMBq0EpHWPkw" name="agent" type="COMPLEX">
-            <inputs xmi:type="process:ContractInput" xmi:id="_jcCuRrWdEeuMBq0EpHWPkw" name="persistenceId_string"/>
-          </inputs>
-        </inputs>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcCuR7WdEeuMBq0EpHWPkw" expression="achizitieInput?.anunt != null" errorMessage="DMAnuntAgent is mandatory for DMAchizitie" name="mandatory_achizitieInput_anunt">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcDVULWdEeuMBq0EpHWPkw" expression="!achizitieInput?.anunt || achizitieInput?.anunt?.persistenceId_string" errorMessage="DMAnuntAgent must reference an existing instance with a persistenceId for DMAchizitie" name="aggregation_achizitieInput_anunt">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcDVUbWdEeuMBq0EpHWPkw" expression="achizitieInput?.cumparator != null" errorMessage="DMCumparator is mandatory for DMAchizitie" name="mandatory_achizitieInput_cumparator">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcDVUrWdEeuMBq0EpHWPkw" expression="!achizitieInput?.cumparator || achizitieInput?.cumparator?.persistenceId_string" errorMessage="DMCumparator must reference an existing instance with a persistenceId for DMAchizitie" name="aggregation_achizitieInput_cumparator">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcDVU7WdEeuMBq0EpHWPkw" expression="achizitieInput?.agent != null" errorMessage="DMAgent is mandatory for DMAchizitie" name="mandatory_achizitieInput_agent">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-        <constraints xmi:type="process:ContractConstraint" xmi:id="_jcDVVLWdEeuMBq0EpHWPkw" expression="!achizitieInput?.agent || achizitieInput?.agent?.persistenceId_string" errorMessage="DMAgent must reference an existing instance with a persistenceId for DMAchizitie" name="aggregation_achizitieInput_agent">
-          <inputNames>achizitieInput</inputNames>
-        </constraints>
-      </contract>
+      <contract xmi:type="process:Contract" xmi:id="_xcVpDLWMEeuMBq0EpHWPkw"/>
       <documents xmi:type="process:Document" xmi:id="_PCxAoLWgEeuMBq0EpHWPkw" documentation="Fisier ce reprezinta precontractul realizat de catre agentul imobiliar." name="fisierPrecontract">
         <mimeType xmi:type="expression:Expression" xmi:id="_PCxAobWgEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
         <url xmi:type="expression:Expression" xmi:id="_PCxAorWgEeuMBq0EpHWPkw" name="" content="" returnTypeFixed="true"/>
