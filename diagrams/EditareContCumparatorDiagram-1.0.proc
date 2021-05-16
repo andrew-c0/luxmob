@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="__XOGMLQdEeue1eVSe-c3yg" name="EditareContCumparatorDiagram" author="Andrei" bonitaVersion="7.12.1" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="__XOGMbQdEeue1eVSe-c3yg" name="Editare cont Cumparator">
-      <elements xmi:type="process:Lane" xmi:id="__XOGMrQdEeue1eVSe-c3yg" name="Cumparator" actor="__XOGS7QdEeue1eVSe-c3yg">
+      <elements xmi:type="process:Lane" xmi:id="__XOGMrQdEeue1eVSe-c3yg" name="Cumparator" actor="_-C-joLYsEeugO4VuDAmEuw">
         <elements xmi:type="process:StartEvent" xmi:id="__XOGM7QdEeue1eVSe-c3yg" name="Accesare platformă" outgoing="__XOGSLQdEeue1eVSe-c3yg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="__XOGNLQdEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="__XOGNbQdEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
@@ -12,71 +12,69 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="__XOGOLQdEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="__XOGObQdEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="__XOGOrQdEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHMB7ThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMCLThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMCbThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_UzPvFrYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_UzPvF7YwEeugO4VuDAmEuw" name="cumparator" content="cumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_UzPvGLYwEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMCrThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.nume" content="dateCumparatorInput?.nume" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMC7ThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_UzPvGbYwEeugO4VuDAmEuw" name="cumparatorInput.nume" content="cumparatorInput?.nume" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_UzPvGrYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMDLThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setNume">
+            <operator xmi:type="expression:Operator" xmi:id="_UzPvG7YwEeugO4VuDAmEuw" type="JAVA_METHOD" expression="setNume">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHMDbThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMDrThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMD7ThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_UzPvHLYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_UzPvHbYwEeugO4VuDAmEuw" name="cumparator" content="cumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_UzPvHrYwEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMELThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.prenume" content="dateCumparatorInput?.prenume" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMEbThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_UzPvH7YwEeugO4VuDAmEuw" name="cumparatorInput.prenume" content="cumparatorInput?.prenume" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_UzPvILYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMErThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setPrenume">
+            <operator xmi:type="expression:Operator" xmi:id="_UzPvIbYwEeugO4VuDAmEuw" type="JAVA_METHOD" expression="setPrenume">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHME7ThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMFLThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMFbThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_UzPvIrYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_UzPvI7YwEeugO4VuDAmEuw" name="cumparator" content="cumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_UzPvJLYwEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMFrThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.adresa" content="dateCumparatorInput?.adresa" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMF7ThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_UzPvJbYwEeugO4VuDAmEuw" name="cumparatorInput.adresa" content="cumparatorInput?.adresa" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_UzPvJrYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMGLThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setAdresa">
+            <operator xmi:type="expression:Operator" xmi:id="_UzPvJ7YwEeugO4VuDAmEuw" type="JAVA_METHOD" expression="setAdresa">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHMGbThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMGrThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMG7ThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_UzPvKLYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_UzPvKbYwEeugO4VuDAmEuw" name="cumparator" content="cumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_UzPvKrYwEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMHLThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.telefon" content="dateCumparatorInput?.telefon" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMHbThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_UzPvK7YwEeugO4VuDAmEuw" name="cumparatorInput.telefon" content="cumparatorInput?.telefon" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_UzPvLLYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMHrThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setTelefon">
+            <operator xmi:type="expression:Operator" xmi:id="_UzPvLbYwEeugO4VuDAmEuw" type="JAVA_METHOD" expression="setTelefon">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHMH7ThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMILThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMIbThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_UzPvLrYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_UzPvL7YwEeugO4VuDAmEuw" name="cumparator" content="cumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_UzPvMLYwEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMIrThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.mail" content="dateCumparatorInput?.mail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMI7ThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_UzPvMbYwEeugO4VuDAmEuw" name="cumparatorInput.parola" content="cumparatorInput?.parola" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_UzPvMrYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMJLThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setMail">
+            <operator xmi:type="expression:Operator" xmi:id="_UzPvM7YwEeugO4VuDAmEuw" type="JAVA_METHOD" expression="setParola">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_7mHMJbThEeuCkOwUB7Tb5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_7mHMJrThEeuCkOwUB7Tb5Q" name="dateCumparator" content="dateCumparator" type="TYPE_VARIABLE" returnType="com.luxmob.model.DMCumparator">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_7mHMJ7ThEeuCkOwUB7Tb5Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+          <operations xmi:type="expression:Operation" xmi:id="_WODgMLYwEeugO4VuDAmEuw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_WODgMbYwEeugO4VuDAmEuw" name="dateValide" content="dateValide" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:Data" xmi:id="_WvjqwLYwEeugO4VuDAmEuw" name="dateValide" dataType="__XOtRbQdEeue1eVSe-c3yg"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_7mHMKLThEeuCkOwUB7Tb5Q" name="dateCumparatorInput.parola" content="dateCumparatorInput?.parola" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_7mHMKbThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_WODgMrYwEeugO4VuDAmEuw" name="newScript()" content="if(cumparatorInput.parola != '' &amp;&amp; cumparatorInput.telefon != ''){&#xD;&#xA;&#x9;return true;&#xD;&#xA;}else{&#xD;&#xA;&#x9;return false;&#xD;&#xA;}" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_80sOwLYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_7mHMKrThEeuCkOwUB7Tb5Q" type="JAVA_METHOD" expression="setParola">
-              <inputTypes>java.lang.String</inputTypes>
-            </operator>
+            <operator xmi:type="expression:Operator" xmi:id="_WODgM7YwEeugO4VuDAmEuw" type="ASSIGNMENT"/>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="__XOGO7QdEeue1eVSe-c3yg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="__XOGPLQdEeue1eVSe-c3yg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -84,16 +82,15 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="__XOGPrQdEeue1eVSe-c3yg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="__XOGP7QdEeue1eVSe-c3yg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="__XOGQLQdEeue1eVSe-c3yg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_LPBakLTiEeuCkOwUB7Tb5Q" name="editareDateCumparator" content="3bdb647e-088d-4323-a07d-baa3a51c3763" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_no3KMLYwEeugO4VuDAmEuw" name="editareContCumparatori" content="6efb7fcd-269e-4e99-b3b9-5501a820efb9" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="__XOGQrQdEeue1eVSe-c3yg">
-            <inputs xmi:type="process:ContractInput" xmi:id="_7mHMALThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" dataReference="dateCumparator" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMAbThEeuCkOwUB7Tb5Q" name="nume" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMArThEeuCkOwUB7Tb5Q" name="prenume" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMA7ThEeuCkOwUB7Tb5Q" name="adresa" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMBLThEeuCkOwUB7Tb5Q" name="telefon" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMBbThEeuCkOwUB7Tb5Q" name="mail" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_7mHMBrThEeuCkOwUB7Tb5Q" name="parola" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_UzPvELYwEeugO4VuDAmEuw" name="cumparatorInput" type="COMPLEX" dataReference="cumparator" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_UzPvEbYwEeugO4VuDAmEuw" name="nume" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_UzPvErYwEeugO4VuDAmEuw" name="prenume" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_UzPvE7YwEeugO4VuDAmEuw" name="adresa" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_UzPvFLYwEeugO4VuDAmEuw" name="telefon" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_UzPvFbYwEeugO4VuDAmEuw" name="parola" createMode="false"/>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="__XOGQ7QdEeue1eVSe-c3yg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -109,13 +106,18 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_ZDZJcrQeEeue1eVSe-c3yg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_H84fALQfEeue1eVSe-c3yg" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_4fSlALThEeuCkOwUB7Tb5Q" name="initDateCumparator()" content="def dMCumparatorVar = new com.luxmob.model.DMCumparator()&#xD;&#xA;dMCumparatorVar.nume = dateCumparatorInput?.nume&#xD;&#xA;dMCumparatorVar.prenume = dateCumparatorInput?.prenume&#xD;&#xA;dMCumparatorVar.adresa = dateCumparatorInput?.adresa&#xD;&#xA;dMCumparatorVar.telefon = dateCumparatorInput?.telefon&#xD;&#xA;dMCumparatorVar.mail = dateCumparatorInput?.mail&#xD;&#xA;dMCumparatorVar.parola = dateCumparatorInput?.parola&#xD;&#xA;return dMCumparatorVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.luxmob.model.DMCumparator">
-          <referencedElements xmi:type="process:ContractInput" xmi:id="_4fSlAbThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX"/>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_OVWtULYqEeugO4VuDAmEuw" name="cumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_OVWtUbYqEeugO4VuDAmEuw" name="DMCumparator.findByPersistenceId" content="SELECT d&#xA;FROM DMCumparator d&#xA;WHERE d.persistenceId= :persistenceId&#xA;" interpreter="GROOVY" type="TYPE_QUERY_BUSINESS_DATA" returnType="com.luxmob.model.DMCumparator">
+          <referencedElements xmi:type="expression:Expression" xmi:id="_RNLcwLYvEeugO4VuDAmEuw" name="persistenceId" content="persistenceId" type="QUERY_PARAM_TYPE" returnType="java.lang.Long" returnTypeFixed="true">
+            <referencedElements xmi:type="expression:Expression" xmi:id="_RNLcwbYvEeugO4VuDAmEuw" name="161" content="161" returnType="java.lang.Long" returnTypeFixed="true"/>
+          </referencedElements>
         </defaultValue>
       </data>
+      <data xmi:type="process:Data" xmi:id="_pQucsLYsEeugO4VuDAmEuw" name="dateValide" dataType="__XOtRbQdEeue1eVSe-c3yg">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_pQucsbYsEeugO4VuDAmEuw" content="" returnType="java.lang.Boolean"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="__XOGRLQdEeue1eVSe-c3yg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Ojol8LTiEeuCkOwUB7Tb5Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_iwHSkLYwEeugO4VuDAmEuw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="__XOGRrQdEeue1eVSe-c3yg">
         <targetForm xmi:type="expression:Expression" xmi:id="__XOGR7QdEeue1eVSe-c3yg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -134,21 +136,12 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_twu7MLQeEeue1eVSe-c3yg" name="Date invalide" target="__XOGN7QdEeue1eVSe-c3yg" source="_5IF1ALQeEeue1eVSe-c3yg">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_twu7MbQeEeue1eVSe-c3yg"/>
-        <condition xmi:type="expression:Expression" xmi:id="_twu7MrQeEeue1eVSe-c3yg" name="newScript()" content="dateCumparator.mail == '' &amp;&amp; dateCumparator.parola == ''" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_9mAIgLTTEeu5Wf-lMQxZ8Q" name="dateCumparator" dataType="__XOtTbQdEeue1eVSe-c3yg" className="com.luxmob.model.DMCumparator"/>
+        <condition xmi:type="expression:Expression" xmi:id="_twu7MrQeEeue1eVSe-c3yg" name="newScript()" content="dateValide == false" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:Data" xmi:id="_9odOALYwEeugO4VuDAmEuw" name="dateValide" dataType="__XOtRbQdEeue1eVSe-c3yg"/>
         </condition>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="__XOGS7QdEeue1eVSe-c3yg" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
-      <contract xmi:type="process:Contract" xmi:id="__XOGTLQdEeue1eVSe-c3yg">
-        <inputs xmi:type="process:ContractInput" xmi:id="_4fR98LThEeuCkOwUB7Tb5Q" name="dateCumparatorInput" type="COMPLEX" dataReference="dateCumparator">
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR98bThEeuCkOwUB7Tb5Q" name="nume"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR98rThEeuCkOwUB7Tb5Q" name="prenume"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR987ThEeuCkOwUB7Tb5Q" name="adresa"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR99LThEeuCkOwUB7Tb5Q" name="telefon"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR99bThEeuCkOwUB7Tb5Q" name="mail"/>
-          <inputs xmi:type="process:ContractInput" xmi:id="_4fR99rThEeuCkOwUB7Tb5Q" name="parola"/>
-        </inputs>
-      </contract>
+      <actors xmi:type="process:Actor" xmi:id="_-C-joLYsEeugO4VuDAmEuw" name="Cumparator" initiator="true"/>
+      <contract xmi:type="process:Contract" xmi:id="__XOGTLQdEeue1eVSe-c3yg"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="__XOGTbQdEeue1eVSe-c3yg">
         <name xmi:type="expression:Expression" xmi:id="__XOGTrQdEeue1eVSe-c3yg" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="__XOGT7QdEeue1eVSe-c3yg" content="" returnTypeFixed="true"/>
