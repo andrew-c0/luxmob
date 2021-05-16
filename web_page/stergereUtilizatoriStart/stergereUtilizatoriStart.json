@@ -1,112 +1,9 @@
 {
   "modelVersion" : "2.0",
-  "id" : "newForm3",
-  "name" : "newForm3",
-  "lastUpdate" : 1621087926633,
+  "id" : "stergereUtilizatoriStart",
+  "name" : "stergereUtilizatoriStart",
+  "lastUpdate" : 1621171353869,
   "rows" : [
-    [
-      {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12
-        },
-        "propertyValues" : { },
-        "reference" : "8e03d6fb-0835-48b5-9256-ceafffa8dffa",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 1"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "5880bd2d-8d35-43b8-b8f1-ef39ace1b9d1",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "allowHtml" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "label" : {
-                  "type" : "interpolation"
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayDescription }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "f2335e5d-c3a6-4f91-a6a5-c783541bb41d",
-              "hasValidationError" : false,
-              "id" : "pbText",
-              "description" : ""
-            }
-          ]
-        ]
-      }
-    ],
     [
       {
         "type" : "formContainer",
@@ -114,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "3d4a8680-ce8b-4ab3-8401-009fc38a710d",
+        "reference" : "20c8d34b-aba8-439d-9e1a-e4edda8ee624",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,17 +20,17 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "6ac85db6-d723-40e0-a524-2ddf79e92b95",
+          "reference" : "b1473ce8-6dda-4f03-92af-3dbbd7613981",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
             [
               {
-                "type" : "component",
+                "type" : "container",
                 "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
                   "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
@@ -145,56 +42,68 @@
                     "type" : "constant",
                     "value" : false
                   },
-                  "disabled" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "required" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "labelHidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Tip Utilizator"
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 1
-                  },
-                  "placeholder" : {
-                    "type" : "constant",
-                    "value" : "Selectați tipul de utilizator"
-                  },
-                  "availableValues" : {
-                    "type" : "constant",
-                    "value" : [
-                      "Cumpărător",
-                      "Agent"
-                    ]
-                  },
-                  "displayedKey" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "returnedKey" : {
-                    "type" : "constant"
-                  },
-                  "value" : {
+                  "repeatedCollection" : {
                     "type" : "variable",
-                    "value" : "formInput.tipUtilizator"
+                    "value" : ""
                   }
                 },
-                "reference" : "016ca93f-9545-403d-abe5-6cad22f71eb7",
+                "reference" : "017fd168-2ad3-4b9d-9a0d-59bbf7ef5ccb",
                 "hasValidationError" : false,
-                "id" : "pbSelect"
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Veți continua pe pagina de selecție tipuri de utilizatori.  Apoi, veți putea selecta dintr-o listă de tipuri de utilizatori pe cel dorit, și apoi îl puteți șterge."
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "c1f9dbce-8427-4b4e-baa0-ec97d616c596",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
+                    }
+                  ]
+                ]
               }
             ],
             [
@@ -224,7 +133,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Continuare"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -247,7 +156,7 @@
                   },
                   "action" : {
                     "type" : "constant",
-                    "value" : "Submit task"
+                    "value" : "Start process"
                   },
                   "collectionToModify" : {
                     "type" : "variable"
@@ -266,9 +175,32 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
-                "reference" : "19d8cf99-c822-469f-bac5-6a518af4c61b",
+                "reference" : "c9ba2f3e-6231-423f-b3d2-03e2c55dad0d",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -320,7 +252,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6d7c5f3b-b2de-42eb-84ed-550a5877caba",
+                "reference" : "a5e45915-7e9e-497e-8967-a0510b04bf4d",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -333,14 +265,14 @@
   ],
   "assets" : [
     {
-      "id" : "deecdcb6-eaa6-4fcd-b11a-dfa32c4cd16b",
+      "id" : "4efd0990-01ed-44d6-9b9d-48ef268aeb39",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "d4dca94d-be3b-4796-9765-8899c4d2bac0",
+      "id" : "dd96c400-2cdf-4b7b-bf15-3d56c17d2b31",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -349,19 +281,10 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "task" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}"
-      ],
-      "exposed" : false
-    },
     "formInput" : {
       "type" : "json",
       "value" : [
-        "{\r",
-        "  \"tipUtilizator\" : \"\"\r",
-        "}"
+        "{ }"
       ],
       "exposed" : false
     },
@@ -384,28 +307,14 @@
       "type" : "expression",
       "value" : [
         "return {",
-        "\ttipUtilizator: $data.formInput.tipUtilizator",
+        "",
         "}"
-      ],
-      "exposed" : false
-    },
-    "context" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
-    },
-    "taskId" : {
-      "type" : "urlparameter",
-      "value" : [
-        "id"
       ],
       "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "332bcc13-dd91-4016-9adf-2f9dbc6d9ce5",
+  "uuid" : "dcc472b6-ba2b-4a84-ac5e-a142c9136b3a",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
